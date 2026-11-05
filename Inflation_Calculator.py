@@ -5,7 +5,6 @@ import numpy as np
 
 #Input CSV File
 df = pd.read_csv("STATIC_INFLATIONCALC.csv", skiprows=8)
-print (df)
 
 def convert (From_Cost, From_Date, To_Date):
     try:
@@ -48,36 +47,4 @@ if result is not None:
 else:
      print ("Please restart and try again with valid entries.")
      print ("For Dates Valid Entries are between 1914-01-01, and 2026-09-01")
-     print ("For Cost Values only integer/floats for cost please restart and try again")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#result = convert(100,4,5)
-#print (result)
-
-
-
-
-# Data Validation Sample
-'''
-user_input = input('Enter a number --->')
-
-try:
-    user_input = int(user_input)
-    print( 2 + user_input)
-except ValueError:
-    print('Invalid: you need to enter a number !')
-'''
+     print ("For Cost Values only integer/floats are valid please restart and try again")
