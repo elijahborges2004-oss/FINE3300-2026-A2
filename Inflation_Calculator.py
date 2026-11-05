@@ -14,6 +14,7 @@ def convert (From_Cost, From_Date, To_Date):
         print("Invalid: you need to enter a number for the cost!")
         return None
 
+
     # Data Validation for the From_Date
     if From_Date not in df["date"].values:
         return None
