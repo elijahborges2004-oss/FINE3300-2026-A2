@@ -36,20 +36,9 @@ The blue line is the CPI (left axis) and the red line is the annual percentage c
 - **Recent spike:** Inflation jumps in 2021-2022 to about 8% in June 2022, the highest since the early 1980s, and then eases.
 
 ## Section 2: Sample Output from Calculator
-Input: `100,2020-01-01,2025-01-01`
+Output: `100,2020-01-01,2025-01-01`
 
 ![Sample Code Output](Sample_Code_Output.png)
 
-Output:
-
-```
-Converted Cost: $117.91
-Percent change: 17.91%
-CPI for first year: (January 2020) 136.8
-CPI for second year:(January 2025) 161.3
-Average annual rate of inflation (%) / Decline in the value of money: 3.35%
-Number of years are: 5.00
-2002 CPI = 100.0
-```
 
 This means $100.00 CAD in January 2020 has the same buying power as $117.91 CAD in January 2025. Prices rose 17.91% in total, an average of 3.35% per year over 5 years.
