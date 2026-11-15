@@ -36,7 +36,9 @@ The blue line is the CPI (left axis) and the red line is the annual percentage c
 - **Recent spike:** Inflation jumps in 2021-2022 to about 8% in June 2022, the highest since the early 1980s, and then eases.
 
 ## Section 2: Sample Output from Calculator
-Output: `100,2020-01-01,2025-01-01`
+Input: `100,2020-01-01,2025-01-01`
+
+Output:
 
 ![Sample Code Output](Sample_Code_Output.png)
 
