@@ -39,14 +39,4 @@ Input: `100,2020-01-01,2025-01-01`
 
 ![Sample calculator output](<Screenshot 2026-11-15 135128.png>)
 
-```
-Converted Cost: $117.91
-Percent change: 17.91%
-CPI for first year: (January 2020) 136.8
-CPI for second year:(January 2025) 161.3
-Average annual rate of inflation (%) / Decline in the value of money: 3.35%
-Number of years are: 5.00
-2002 CPI = 100.0
-```
-
 This means $100.00 CAD in January 2020 has the same buying power as $117.91 CAD in January 2025. Prices rose 17.91% in total, an average of 3.35% per year over 5 years.
