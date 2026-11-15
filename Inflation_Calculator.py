@@ -1,4 +1,4 @@
-# Start off by importing the relevant libaries for the project
+# Start off by importing the relevant libraries for the project
 import pandas as pd
 import numpy as np
 from datetime import datetime
@@ -57,8 +57,9 @@ def convert (From_Cost, From_Date, To_Date):
             # Returns the result of the average inflation if "Num_Of_Years == 0"
             Avg_Rate_Inflation = 0.0
     else:
-            # Calculates the Average inflation within the user set date range using the dates cpi's and "num_of_years"
-            Avg_Rate_Inflation = (((to_cpi / from_cpi) ** (1 / num_of_years)) - 1) * 100
+            # Calculates the Average inflation within the user set date range using the dates cpi's and the absolute number of years
+            # abs() keeps the sign of the rate consistent with the percent change when the From_Date is later than the To_Date
+            Avg_Rate_Inflation = (((to_cpi / from_cpi) ** (1 / abs(num_of_years))) - 1) * 100
     # Returns all of the outputs of the conversion 
     return to_cost, pct_change, from_cpi, to_cpi, Avg_Rate_Inflation, num_of_years, from_cpi_string, to_cpi_string
 
