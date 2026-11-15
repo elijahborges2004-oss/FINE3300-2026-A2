@@ -12,7 +12,7 @@ The calculator takes a cost, a starting date, and an ending date. It then shows 
 - `Inflation_Calculator.py`: the inflation calculator
 - `STATIC_INFLATIONCALC.csv`: monthly CPI data (2002 = 100) from January 1914 to September 2026
 - `CPI_Graph.png`: the saved graph
-- `Sample Code Output.png`: a screenshot of a sample calculator run
+- `Sample_Code_Output.png`: a screenshot of a sample calculator run
 
 ## How to Run
 1. Install the required libraries: `pip install pandas numpy matplotlib`
