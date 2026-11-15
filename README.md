@@ -23,7 +23,8 @@ The calculator takes a cost, a starting date, and an ending date. It then shows 
 Example input: `100,2020-01-01,2025-01-01`
 
 ## Section 1: Graph of CPI Data
-![CPI and annual percentage change](CPI_Graph-1.png)
+
+![alt text](CPI_Graph.png)
 
 The blue line is the CPI (left axis) and the red line is the annual percentage change (right axis). The dotted black line marks the base level of 100, which is where the CPI sits in 2002 by definition.
 
